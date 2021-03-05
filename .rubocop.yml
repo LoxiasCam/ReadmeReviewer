@@ -3,6 +3,7 @@ AllCops:
   Exclude:
     - "Guardfile"
     - "Rakefile"
+    - "Gemfile"
 
   DisplayCopNames: true
 
