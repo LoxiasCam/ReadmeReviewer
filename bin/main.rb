@@ -12,12 +12,12 @@ $stdin.noecho(&:gets).chomp
 
 live_demo = ''
 
-until live_demo == 'Y' || live_demo == 'N'
+until %w[Y N].include?(live_demo)
   puts "\nDoes your project have a Live Demo? For example, a webpage or a deployable online app? Y/N"
 
   live_demo = $stdin.getch.upcase
 
-  puts "\nInvalid selection! Please press (Y)es or (N)o" unless live_demo == 'Y' || live_demo == 'N'
+  puts "\nInvalid selection! Please press (Y)es or (N)o" unless %w[Y N].include?(live_demo)
 end
 
 file_data = File.read('../goodREADME.md')

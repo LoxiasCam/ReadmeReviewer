@@ -39,7 +39,7 @@ class Reviewer
     else
       Rainbow("\n\nOops! I couldn't find any links to a 'Live Demo' in your Readme."\
         "\nConsider adding a link to the Live Demo of your project!"\
-        "\nIf you have a link, this test could have also failed if the reviewer didn't find a header for your Live Demo section."\
+        "\nThis test could have also failed if the reviewer didn't find a header for your Live Demo section."\
         "\nUsing Markdown, you can add a link by typing your text in [] followed by the link in ()"\
         "\nFor example: [example_text](www.livedemo-link.com)").yellow
     end
@@ -53,7 +53,7 @@ class Reviewer
         "\nConsider adding this section to your project."\
         "\nThis can help you give instructions on setting up your project locally."\
         "\nKeep in mind prerequisites or usage steps that other people may need!"\
-        "\nFor example: Before using ReadmeReviewer, run bundle install from your console to install the gems required.").yellow
+        "\nFor example: Run bundle install from your console to install the gems required.").yellow
     end
   end
 
@@ -75,9 +75,9 @@ class Reviewer
     else
       Rainbow("\n\nOops! I couldn't find any 'Contributing' section in your Readme."\
         "\nConsider adding this section to your project."\
-        "\nIf your projects catches someone else's attention, they can take a look here to see how or if they can help."\
+        "\nIf your projects catches someone else's attention, they can take a look here to see how they can help."\
         "\nIt's also a good idea to include a link to the issues page of your project so someone can work on them."\
-        "\nAt the very least, a friendly invitation can help give someone that push to contribute to your project!").yellow
+        "\nAt the very least, a friendly invitation can give someone that push to contribute to your project!").yellow
     end
   end
 
