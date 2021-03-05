@@ -5,9 +5,9 @@ require_relative '../lib/reviewer'
 
 puts Rainbow("\nThis is the ReadmeReviewer!").green
 puts Rainbow("\nThis will help you check your README.md files by comparing them to the Microverse template!").green
-puts Rainbow("\nPlease be advised that the ReadmeReviewer only works for Markdown (.md) files").yellow
+puts Rainbow("\nPlease be advised that the ReadmeReviewer is optimized for Markdown (.md) files").yellow
 puts Rainbow("\nReadmeReviewer will automatically look for a README.md file on the project root folder").red.bright
-puts Rainbow("\nPRESS ENTER TO CONTINUE").black.bright
+puts Rainbow("\nPRESS ANY KEY TO CONTINUE").black.bright
 $stdin.noecho(&:gets).chomp
 
 live_demo = ''
