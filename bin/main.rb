@@ -21,7 +21,7 @@ until %w[Y N].include?(live_demo)
 end
 
 # Change this line if you'd like to specify a different readme
-file_data = File.read('../goodREADME.md')
+file_data = File.read('../README.md')
 
 print Reviewer.project_name?(file_data)
 print Reviewer.screenshot?(file_data)
