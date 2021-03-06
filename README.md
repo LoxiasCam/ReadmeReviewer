@@ -30,6 +30,7 @@ You can download [a copy of this project so that you can check your own readme f
 - From the root folder of the project, run the command bundle install to install any required gems that you might be lacking (most likely, you would be missing the Rainbow gem in order to colorize the text output)
 - Move the README.md file that you'd like to be checked to the root folder of the project and replace this existing README.md
 - That's it! You should be good to go to run the ReadmeReviewer. Please see below for more information on how to run it.
+- After running bundle install, you should also have installed RSpec if you didn't have it. With this, you can run the command rspec from the root folder of this project, so that you can test the code and see if it's working!
 
 
 ### Prerequisites
@@ -47,6 +48,7 @@ You can download [a copy of this project so that you can check your own readme f
 ### Usage
 
 * In your OS terminal, run the main.rb file located in the bin folder and follow the prompts on your terminal.
+* Remember that you can also run rspec from the root folder of the project to run the RSpec tests for this program.
 
 
 ## Authors
