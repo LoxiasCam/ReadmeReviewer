@@ -13,7 +13,7 @@ $stdin.noecho(&:gets).chomp
 live_demo = ''
 
 until %w[Y N].include?(live_demo)
-  puts "\nDoes your project have a Live Demo? For example, a webpage or a deployable online app? Y/N"
+  puts "\nDoes your project have a Live Demo? For example, a webpage or a deployable app? Y/N"
 
   live_demo = $stdin.getch.upcase
 
